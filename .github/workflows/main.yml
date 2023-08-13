@@ -15,6 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           template: repository
-          # user: Yui-Arthur
+          user: "Yui-Arthur"
+          plugin_languages: yes
           token: ${{ secrets.TOKEN }}
           repo: metrics
