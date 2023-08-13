@@ -17,3 +17,4 @@ jobs:
           template: repository
           user: Yui-Arthur
           token: ${{ secrets.TOKEN }}
+          repo: metrics
