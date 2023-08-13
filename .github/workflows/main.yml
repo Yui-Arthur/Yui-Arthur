@@ -12,10 +12,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
-          template: repository
-          user: "Yui-Arthur"
-          plugin_languages: yes
+          filename: repository.svg
           token: ${{ secrets.TOKEN }}
+          base: ""
+          template: repository
           repo: metrics
+          user: Yui-Arthur
+          plugin_languages: yes
+          
+          
