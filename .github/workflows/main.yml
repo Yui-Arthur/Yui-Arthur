@@ -15,6 +15,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           template: repository
-          user: Yui-Arthur
+          # user: Yui-Arthur
           token: ${{ secrets.TOKEN }}
           repo: metrics
