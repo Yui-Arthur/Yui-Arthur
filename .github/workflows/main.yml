@@ -24,6 +24,6 @@ jobs:
             +Yui-Arthur/CPE_practice_website
             +Yui-Arthur/AI_badminton
             +Yui-Arthur/ML2023Spring_HW
-          plugin_lines_sections: history
+          plugin_lines_sections: history , base
           plugin_habits : yes
           
