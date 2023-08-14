@@ -16,7 +16,8 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.TOKEN }}
-          base: header, repositories
+          base: header, repositories , activity
           plugin_lines: yes
+          plugin_lines_sections: history
 
           
