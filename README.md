@@ -1,1 +1,1 @@
-![Metrics](/repository.svg)
+![Metrics](/metrics.svg)
