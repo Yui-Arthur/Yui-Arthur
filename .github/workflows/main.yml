@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           base: header, repositories , activity
           plugin_lines: yes
+          plugin_lines_skipped : CPE_practice_website
           plugin_lines_sections: history
-
+          plugin_habits : yes
           
