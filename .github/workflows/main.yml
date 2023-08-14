@@ -19,7 +19,7 @@ jobs:
           base: ""
           template: repository
           repo: metrics
-          user: Yui-Arthur
+          user: lowlighter
           plugin_languages: yes
           
           
