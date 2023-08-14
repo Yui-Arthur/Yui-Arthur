@@ -14,20 +14,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
-          filename: language.svg
+          filename: metrics.svg
           token: ${{ secrets.TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
-          user: lowlighter
-          plugin_languages: yes
-      - uses: lowlighter/metrics@master
-        with:
-          filename: repository.svg
-          token: ${{ secrets.TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
-          user: lowlighter
-          
+          base: header, repositories
+          plugin_lines: yes
+
           
